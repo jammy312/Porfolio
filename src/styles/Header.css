@@ -1,0 +1,21 @@
+.background{
+
+    background-color: #647089;
+}
+
+.left-space{
+    min-width: 5vh;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.up-space{
+    min-width: 100vh;
+    min-height: 6.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0% 7%;
+}
