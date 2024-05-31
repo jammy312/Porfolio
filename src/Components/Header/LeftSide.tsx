@@ -1,6 +1,6 @@
 
 import '../../styles/Header.css'
-import ButtonURL from './Buttons/ButtonURL';
+import ButtonURL from '../Buttons/ButtonURL';
 
 function LeftSide() {
 

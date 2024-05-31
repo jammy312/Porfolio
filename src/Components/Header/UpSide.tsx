@@ -1,6 +1,6 @@
 
 import '../../styles/Header.css'
-import NormalButton from './Buttons/NormalButton';
+import NormalButton from '../Buttons/NormalButton';
 
 
 function UpSide() {

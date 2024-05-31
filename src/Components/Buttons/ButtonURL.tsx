@@ -1,5 +1,5 @@
 import viteLogo from '/vite.svg'
-import '../../../styles/ButtonURL.css'
+import '../../styles/ButtonURL.css'
 interface Props {
     url: string;
   }
