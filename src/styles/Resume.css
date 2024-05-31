@@ -1,0 +1,100 @@
+#Resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-timeline{
+    background-color: orange;
+    padding: 5%;
+    border-radius:100% ;
+    margin-top: 2%;
+}
+
+
+.element{
+    display: flex;
+    position: relative;
+    
+    width: 90%;
+}
+
+.date{
+    width: 77%;
+    margin: 5%;
+}
+
+.timeline{
+    align-items: start;
+    padding-top: 2%;    
+    position: relative;
+
+    width: 42%;
+    display: flex;
+
+}
+
+.panel{
+    border: gray ;
+    border-radius: 1%;
+    padding: 1% 5%;
+    background-color: rgb(26, 81, 81);
+    width: 100%;
+    text-align: center;
+    margin: 2%;
+
+}
+
+.panel-title{
+    font-size: x-large;    
+    margin-bottom: 5%;
+}
+
+.panel-description{
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+
+.panel-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+    justify-content: center;
+}
+
+.panel-keyword {
+    background-color: gray;
+    padding: 2% 2%;
+    border-radius: 10%;
+    margin: 0 3%;
+    font-size: small;
+}
+
+.line-bottom{
+    width: 5px;
+    height: 100%;
+    margin: 2%;
+    
+    opacity: 30%;
+   background-color: black;
+   position: absolute;
+   left: 89%;
+    z-index: -1;
+
+}
+
+.line-side{
+    width: 19%;
+    height: 2%;
+    left: 91%;
+    top: 8vh;
+    opacity: 30%;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+
+}
+
+
