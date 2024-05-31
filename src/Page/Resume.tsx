@@ -4,8 +4,8 @@ import '../styles/Resume.css'
 import NormalButton from '../Components/Buttons/NormalButton';
 function Resume() {
     const allData = getData();
-    const schoolIcon = 'src\assets\Images\School.png';
-    const workIcon:string = 'src\assets\Images\work.png';
+    const schoolIcon = 'src/assets/Images/School.png';
+    const workIcon:string = 'src/assets/Images/work.png';
 
     return <div id='Resume'>
              {
@@ -15,7 +15,7 @@ function Resume() {
                             <div className='timeline'>
                                 <div className='date'>{data.start + ' - ' + data.end}</div>
                                 <div className='line-bottom'></div>
-                                <img className = 'image-timeline' src={workIcon}/>
+                                <img className = 'image-timeline' src={data.Ecole? schoolIcon: workIcon}/>
                                 <div className='line-side'></div>
                             </div>
                             <div className='panel'>
@@ -26,7 +26,7 @@ function Resume() {
                                 })}</div>
                                    <img/>
                                    <div>
-                                   <NormalButton Name={'Voir plus ici'} url='' ></NormalButton>
+                                        <NormalButton Name={'Voir plus ici'} url='' ></NormalButton>
 
                                    </div>
                                     

@@ -6,6 +6,7 @@
     height: 100vh;
     background:#3ba9e8f6 ;
     transform-origin: bottom;
+    z-index: 10;
 }
 .slide-out {
     position: absolute;
@@ -15,4 +16,6 @@
     height: 100vh;
     background:#3ba9e8f6 ;
     transform-origin: top;
+    z-index: 10;
+
 }

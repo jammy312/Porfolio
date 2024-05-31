@@ -9,7 +9,6 @@ function LeftSide() {
             <div className="left-space">
                 <ButtonURL url= {"https://www.linkedin.com/in/james-brutus/"} imagePath='src\assets\Images\linkedin.png'/>
                 <ButtonURL url= {"https://github.com/jammy312"} imagePath='src\assets\Images\github.png'/>
-                <ButtonURL url= {"sssssss"}/>
             </div>
         </div>
 

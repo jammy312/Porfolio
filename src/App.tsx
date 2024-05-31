@@ -9,16 +9,18 @@ import Home from './Page/Home'
 import Resume from './Page/Resume'
 //import AnimatedRoutes from './Components/Transition'
 import { AnimatePresence } from 'framer-motion'
+import Search from './Components/Search/Search'
 
 function App() {
   //const [count, setCount] = useState(0)
   const location = useLocation();
-
+  console.log(location.pathname);
   return (
     <>    
     <UpSide/>
     <div className='App'>
       <LeftSide/>
+      { location.pathname == '/Resume' && <Search/>}
       <div className='all-screen'>
         <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>
