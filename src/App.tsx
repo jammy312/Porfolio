@@ -4,6 +4,9 @@ import viteLogo from '/vite.svg'
 import './styles/App.css'
 import UpSide from './Components/Header/UpSide'
 import LeftSide from './Components/Header/LeftSide'
+import {Routes, Route} from 'react-router-dom'
+import Home from './Page/Home'
+import Resume from './Page/Resume'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +16,11 @@ function App() {
     <UpSide/>
     <div className='App'>
       <LeftSide/>
+      <Routes>
+        <Route index element = {<Home/>} />
+        <Route path='/home' element = {<Home/>} />
+        <Route path='/resume' element = {<Resume/>} />
+      </Routes>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
