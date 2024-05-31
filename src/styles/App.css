@@ -42,5 +42,9 @@
 .App {
   display: flex;
   flex-direction: row;
+}
+
+.all-screen{
   flex-grow: 1;
+  position: relative;
 }

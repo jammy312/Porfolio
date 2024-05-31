@@ -1,5 +1,9 @@
+import Transition from '../Components/Transition'
+
 function Resume() {
 
-    return <div>Resume</div>
+    return <div>
+                Resume
+            </div>
 }
-export default Resume
+export default Transition(Resume)
