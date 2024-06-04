@@ -1,26 +1,19 @@
+import { useAppContext } from "../AppContext";
 import NormalButton from "../Components/Buttons/NormalButton";
-import { Data } from "../Components/Data/GetData";
 import Image from "../Components/Image";
 import Transition from "../Components/Transition";
 import VideoPlayer from "../Components/VideoPlayer";
 import '../styles/Description.css'
 function Description() {
-    const data:Data = {
-        title: "Projet intérgrateur",
-        description: "sdadsasdasdsadadsa",
-        keyWords: ['ss','ss','ss','ss','ss',],
-        start: new Date(),
-        end: new Date(),
-        video: 'ConcoursUbi - Unreal Editor 2024-03-06 12-14-00.mp4',
-        Ecole: 'saint meumeu'
-    };
+    const { data } = useAppContext();
+
     return (
     <div id='Description'>   
         <div id="Resume-back-button">
             <NormalButton url="/Resume" Name="<-- Revenir aux projets"/>
         </div>
         <div id='Description-data'>
-        <div className="Description-title" >{"Projet"}</div>
+        <div className="Description-title" >{data.title}</div>
         <div className="Description-sub-title center">
             {data.video && <VideoPlayer videoName={data.video}/>}
             {!data.video && data.image &&   <Image imageName={data.image}/>}

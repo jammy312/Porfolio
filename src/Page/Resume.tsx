@@ -6,13 +6,15 @@ import Search from '../Components/Search/Search';
 import { useState } from 'react';
 import VideoPlayer from '../Components/VideoPlayer';
 import Image from '../Components/Image';
-import Description from '../Components/Description';
+import { useAppContext } from '../AppContext';
+
 function Resume() {
     const [seachInput, setSearchInput] = useState('');
     const data = getData(seachInput);
     const schoolIcon = 'src/assets/Images/School.png';
     const workIcon:string = 'src/assets/Images/work.png';
-    
+    const { setData } = useAppContext();
+
     return (
     <div id='Resume'>   
         <Search valueChange={setSearchInput}/>
@@ -43,6 +45,7 @@ function Resume() {
                                    <div>
                                         <NormalButton Name={'Voir plus ici'} url='/description' onClick={
                                             () => {
+                                                setData(data);
                                                 //Description().changeData(data);
                                             }
                                         } ></NormalButton>      
