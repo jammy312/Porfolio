@@ -2,14 +2,20 @@ import Transition from '../Components/Transition'
 import getData from '../Components/Data/GetData'
 import '../styles/Resume.css'
 import NormalButton from '../Components/Buttons/NormalButton';
+import Search from '../Components/Search/Search';
+import { useState } from 'react';
 function Resume() {
-    const allData = getData();
+    const [seachInput, setSearchInput] = useState('');
+    const data = getData(seachInput);
     const schoolIcon = 'src/assets/Images/School.png';
     const workIcon:string = 'src/assets/Images/work.png';
-
-    return <div id='Resume'>
+    
+    return (
+    <div>   
+        <Search valueChange={setSearchInput}/>
+    <div id='Resume'>
              {
-                allData.map((data,index) =>{
+                data.map((data,index) =>{
                     return (
                         <div key={index} className='element' >
                             <div className='timeline'>
@@ -22,7 +28,11 @@ function Resume() {
                                 <div className='panel-title'> {data.title}</div>
                                 <div className='panel-description'>{data.description}</div>
                                 <div className='panel-keywords'>{data.keyWords.map((key,index) => {
-                                    return <span key={index} className='panel-keyword'> {key}</span>
+                                    let className = 'panel-keyword';
+                                    if(seachInput != '' && key.toLowerCase().startsWith(seachInput.toLowerCase()))
+                                        className += ' found-keyword'
+
+                                    return <span key={index} className={className}> {key}</span>
                                 })}</div>
                                    <img/>
                                    <div>
@@ -37,5 +47,8 @@ function Resume() {
                 } )
              }   
         </div>
+    </div>)
+    
+
 }
 export default Transition(Resume)

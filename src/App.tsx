@@ -1,4 +1,3 @@
-import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './styles/App.css'
@@ -9,7 +8,6 @@ import Home from './Page/Home'
 import Resume from './Page/Resume'
 //import AnimatedRoutes from './Components/Transition'
 import { AnimatePresence } from 'framer-motion'
-import Search from './Components/Search/Search'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -20,7 +18,6 @@ function App() {
     <UpSide/>
     <div className='App'>
       <LeftSide/>
-      { location.pathname == '/Resume' && <Search/>}
       <div className='all-screen'>
         <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>

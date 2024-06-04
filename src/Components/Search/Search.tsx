@@ -1,17 +1,20 @@
-//import { useEffect, useRef, useState } from "react";
+import { ChangeEvent } from 'react';
 import '../../styles/Search.css'
-function Search(setSearchValue:React.Dispatch<React.SetStateAction<string>> ){
-  //  const targetRef = useRef(null);
-   // const [isHovered, setIsHovered] = useState(false);
-    //const [isFocused, setIsFocused] = useState(false);
-    //const showSearchInput = isHovered || isFocused;
 
-    //let className:string = showSearchInput? 'search searchInput' : ;
 
-    const change = event =>{
-      setSearchValue(event.target.value)
+interface Props{
+  valueChange:React.Dispatch<React.SetStateAction<string>>;
+}
+
+const Search:React.FC<Props> = ({valueChange}) => {
+
+
+
+
+
+    const change = (event:ChangeEvent<HTMLInputElement>) =>{
+      valueChange(event.target.value)
     }
-
     return (
       <div className='position'>
         <form action="">

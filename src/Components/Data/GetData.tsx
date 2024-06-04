@@ -13,9 +13,9 @@ interface Data {
     Ecole?:string;
   }
 
-function getData():Data[] {
+function getData(keyword?:string ):Data[] {
     let allData:Data[] = [];
-    data.projects.map( (projet,index) =>{
+    data.projects.map( (projet) =>{
         const data:Data = {
             title: projet.title,
             description: projet.description,
@@ -27,9 +27,22 @@ function getData():Data[] {
             lienURL: projet.lienUrl,
             Ecole: projet.Ecole
         }
-        allData.push(data);
+
+        if(keyword && keyword != ''){
+            projet.keyWords.forEach(keywordElement => {
+                if(keywordElement.toLowerCase().startsWith(keyword.toLowerCase())){
+                    allData.push(data);
+                }
+            });
+        } else {
+            allData.push(data);
+        }
+
     })
-    console.log(allData)
     return allData;
 }
+
+
+
+
 export default getData;
