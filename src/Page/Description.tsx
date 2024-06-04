@@ -14,7 +14,7 @@ function Description() {
         <div id="Resume-back-button">
             <NormalButton url="/Projects" Name={"<--" + t("backToProjects")}/>
         </div>
-        <div id='Description-data'>
+        <div className="information-panel">
         <div className="Description-title" >{data.title}</div>
         <div className="Description-sub-title center">
             {data.video && <VideoPlayer videoName={data.video}/>}
