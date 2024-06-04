@@ -9,7 +9,7 @@ import Image from '../Components/Image';
 import { useAppContext } from '../AppContext';
 import { useTranslation } from 'react-i18next';
 
-function Resume() {
+function Projects() {
     const [seachInput, setSearchInput] = useState('');
     const data = getData(seachInput);
     const schoolIcon = 'src/assets/Images/School.png';
@@ -34,7 +34,7 @@ function Resume() {
                             <div className='panel'>
                                 <div className='panel-title'> {data.title}</div>
                                 {data.video && <VideoPlayer videoName={data.video}/>}
-                                {!data.video && data.image &&   <Image imageName={data.image}/>}
+                                {!data.video && data.image && <Image imageName={data.image}/>}
                                 <div className='panel-description'>{data.description}</div>
                                 <div className='panel-keywords'>{data.keyWords.map((key,index) => {
                                     let className = 'panel-keyword';
@@ -60,4 +60,4 @@ function Resume() {
         </div>
     </div>)
 }
-export default Transition(Resume)
+export default Transition(Projects)

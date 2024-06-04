@@ -12,7 +12,7 @@ function Description() {
     return (
     <div id='Description'>   
         <div id="Resume-back-button">
-            <NormalButton url="/Resume" Name={"<--" + t("backToProjects")}/>
+            <NormalButton url="/Projects" Name={"<--" + t("backToProjects")}/>
         </div>
         <div id='Description-data'>
         <div className="Description-title" >{data.title}</div>
@@ -20,7 +20,16 @@ function Description() {
             {data.video && <VideoPlayer videoName={data.video}/>}
             {!data.video && data.image &&   <Image imageName={data.image}/>}
         </div>
-        
+        {data.lienURL && (
+        <div  className="Description-sub-title">
+           { t("URL") + ':'}
+           <div>
+                <a href={data.lienURL} className="Description-comment" >{data.lienURL}</a>
+           </div>
+
+        </div>
+        )}  
+
         {data.Ecole && (
         <div className="Description-sub-title">
            { t("school") + ':'}

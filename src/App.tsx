@@ -5,7 +5,7 @@ import UpSide from './Components/Header/UpSide'
 import LeftSide from './Components/Header/LeftSide'
 import {Routes, Route, useLocation} from 'react-router-dom'
 import Home from './Page/Home'
-import Resume from './Page/Resume'
+import Projects from './Page/Projects'
 import { AnimatePresence } from 'framer-motion'
 import Description from './Page/Description'
 
@@ -22,7 +22,7 @@ function App() {
             <Routes location={location} key={location.pathname}>
                 <Route index element = {<Home/>} />
                 <Route path='/home' element = {<Home/>} />
-                <Route path='/resume' element = {<Resume/>} />
+                <Route path='/projects' element = {<Projects/>} />
                 <Route path='/description' element = {<Description/>} />
             </Routes>
       </AnimatePresence>

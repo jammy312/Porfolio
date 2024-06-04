@@ -11,7 +11,9 @@ function UpSide() {
         <div className="background">
             <div className="up-space">
                 <NormalButton Name={t("home")} url='/Home'/>
+                <NormalButton Name={t("projects")} url='/Projects'/>
                 <NormalButton Name={t("resume")} url='/Resume'/>
+
             </div>
         </div>
 
