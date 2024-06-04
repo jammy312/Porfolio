@@ -19,7 +19,7 @@ function Resume() {
                     return (
                         <div key={index} className='element' >
                             <div className='timeline'>
-                                <div className='date'>{data.start + ' - ' + data.end}</div>
+                                <div className='date'>{'from: ' + data.start.getFullYear() + '-' + data.start.getMonth() + ' to ' + data.end.getFullYear() + '-' + data.end.getMonth() }</div>
                                 <div className='line-bottom'></div>
                                 <img className = 'image-timeline' src={data.Ecole? schoolIcon: workIcon}/>
                                 <div className='line-side'></div>
@@ -36,19 +36,14 @@ function Resume() {
                                 })}</div>
                                    <img/>
                                    <div>
-                                        <NormalButton Name={'Voir plus ici'} url='/description' ></NormalButton>
-                                        
+                                        <NormalButton Name={'Voir plus ici'} url='/description' ></NormalButton>      
                                    </div>
-                                    
                             </div>
-
                         </div>
                     );
                 } )
              }   
         </div>
     </div>)
-    
-
 }
 export default Transition(Resume)

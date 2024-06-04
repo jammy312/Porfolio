@@ -8,8 +8,8 @@ interface Data {
     image?:string;
     video?:string;
     lienURL?: string;
-    start:string;
-    end:string;
+    start:Date;
+    end:Date;
     Ecole?:string;
   }
 
@@ -20,8 +20,8 @@ function getData(keyword?:string ):Data[] {
             title: projet.title,
             description: projet.description,
             keyWords: projet.keyWords,
-            start: projet.start,
-            end: projet.end,
+            start: stringToDate(projet.start),
+            end: stringToDate(projet.end),
             image: projet.image,
             video:projet.video,
             lienURL: projet.lienUrl,
@@ -39,10 +39,27 @@ function getData(keyword?:string ):Data[] {
         }
 
     })
+
+    allData.sort((a,b) => {
+        if(a.start < b.start)
+            return 1;
+        if (a.start > b.start)
+            return -1;
+        if(a.end < b.end)
+            return 1;
+        if (a.end > b.end)
+            return -1 ;
+        return 0;
+    })
+
     return allData;
 }
 
-
+function stringToDate(date:string){
+    const dateValue:string[] = date.split('-');
+    console.log(parseInt(dateValue[1] , 10 ));
+    return new Date( parseInt(dateValue[0] , 10 ), parseInt(dateValue[1] , 10 ) )
+}
 
 
 export default getData;
