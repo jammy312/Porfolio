@@ -1,7 +1,7 @@
 
 import data from '../../assets/Data/data.json';
 
-interface Data {
+export interface Data {
     title: string;
     description: string;
     keyWords:string[];
@@ -11,7 +11,7 @@ interface Data {
     start:Date;
     end:Date;
     Ecole?:string;
-  }
+}
 
 function getData(keyword?:string ):Data[] {
     let allData:Data[] = [];
@@ -63,3 +63,4 @@ function stringToDate(date:string){
 
 
 export default getData;
+

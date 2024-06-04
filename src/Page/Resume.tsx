@@ -4,6 +4,9 @@ import '../styles/Resume.css'
 import NormalButton from '../Components/Buttons/NormalButton';
 import Search from '../Components/Search/Search';
 import { useState } from 'react';
+import VideoPlayer from '../Components/VideoPlayer';
+import Image from '../Components/Image';
+import Description from '../Components/Description';
 function Resume() {
     const [seachInput, setSearchInput] = useState('');
     const data = getData(seachInput);
@@ -26,6 +29,8 @@ function Resume() {
                             </div>
                             <div className='panel'>
                                 <div className='panel-title'> {data.title}</div>
+                                {data.video && <VideoPlayer videoName={data.video}/>}
+                                {!data.video && data.image &&   <Image imageName={data.image}/>}
                                 <div className='panel-description'>{data.description}</div>
                                 <div className='panel-keywords'>{data.keyWords.map((key,index) => {
                                     let className = 'panel-keyword';
@@ -36,7 +41,11 @@ function Resume() {
                                 })}</div>
                                    <img/>
                                    <div>
-                                        <NormalButton Name={'Voir plus ici'} url='/description' ></NormalButton>      
+                                        <NormalButton Name={'Voir plus ici'} url='/description' onClick={
+                                            () => {
+                                                //Description().changeData(data);
+                                            }
+                                        } ></NormalButton>      
                                    </div>
                             </div>
                         </div>
