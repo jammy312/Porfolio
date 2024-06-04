@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useAppContext } from "../AppContext";
 import NormalButton from "../Components/Buttons/NormalButton";
 import Image from "../Components/Image";
@@ -6,11 +7,12 @@ import VideoPlayer from "../Components/VideoPlayer";
 import '../styles/Description.css'
 function Description() {
     const { data } = useAppContext();
+    const { t } = useTranslation();
 
     return (
     <div id='Description'>   
         <div id="Resume-back-button">
-            <NormalButton url="/Resume" Name="<-- Revenir aux projets"/>
+            <NormalButton url="/Resume" Name={"<--" + t("backToProjects")}/>
         </div>
         <div id='Description-data'>
         <div className="Description-title" >{data.title}</div>
@@ -21,29 +23,25 @@ function Description() {
         
         {data.Ecole && (
         <div className="Description-sub-title">
-            School:
+           { t("school") + ':'}
             <div className="Description-comment" >{data.Ecole}</div>
 
         </div>
         )}  
         <div className="Description-sub-title">
-            Date:
+            { t("date") + ':'}
             <div className="Description-comment" >{data.start.getFullYear() + '-' + data.start.getMonth() + ' to ' + data.end.getFullYear() + '-' + data.end.getMonth()}</div>
-
         </div>
         <div className="Description-sub-title">
-            Description:
+        { t("description") + ':'}
             <div className="Description-comment" >{data.description}</div>
-
         </div>
         <div className="Description-sub-title">
-            Tags:
+        { t("tags") + ':'}
             <div className='panel-keywords Description-comment'>{data.keyWords.map((key,index) => {
-                                    let className = 'Description-keyword';
-
-                                    return <span key={index} className={className}> {key}</span>
-                                })}</div>
-
+                let className = 'Description-keyword';
+                return <span key={index} className={className}> {key}</span>
+            })}</div>
         </div>
         </div>
     </div>)

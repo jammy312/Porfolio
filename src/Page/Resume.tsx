@@ -7,6 +7,7 @@ import { useState } from 'react';
 import VideoPlayer from '../Components/VideoPlayer';
 import Image from '../Components/Image';
 import { useAppContext } from '../AppContext';
+import { useTranslation } from 'react-i18next';
 
 function Resume() {
     const [seachInput, setSearchInput] = useState('');
@@ -14,6 +15,7 @@ function Resume() {
     const schoolIcon = 'src/assets/Images/School.png';
     const workIcon:string = 'src/assets/Images/work.png';
     const { setData } = useAppContext();
+    const { t } = useTranslation();
 
     return (
     <div id='Resume'>   
@@ -24,7 +26,7 @@ function Resume() {
                     return (
                         <div key={index} className='element' >
                             <div className='timeline'>
-                                <div className='date'>{'from: ' + data.start.getFullYear() + '-' + data.start.getMonth() + ' to ' + data.end.getFullYear() + '-' + data.end.getMonth() }</div>
+                                <div className='date'>{t("from") + ': ' + data.start.getFullYear() + '-' + data.start.getMonth() + ' ' + t("to") + " " + data.end.getFullYear() + '-' + data.end.getMonth() }</div>
                                 <div className='line-bottom'></div>
                                 <img className = 'image-timeline' src={data.Ecole? schoolIcon: workIcon}/>
                                 <div className='line-side'></div>
@@ -43,7 +45,7 @@ function Resume() {
                                 })}</div>
                                    <img/>
                                    <div>
-                                        <NormalButton Name={'Voir plus ici'} url='/description' onClick={
+                                        <NormalButton Name={t("seeMoreHere")} url='/description' onClick={
                                             () => {
                                                 setData(data);
                                                 //Description().changeData(data);

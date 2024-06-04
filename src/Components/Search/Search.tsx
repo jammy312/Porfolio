@@ -1,5 +1,6 @@
 import { ChangeEvent } from 'react';
 import '../../styles/Search.css'
+import { useTranslation } from 'react-i18next';
 
 
 interface Props{
@@ -7,6 +8,7 @@ interface Props{
 }
 
 const Search:React.FC<Props> = ({valueChange}) => {
+  const { t } = useTranslation();
 
     const change = (event:ChangeEvent<HTMLInputElement>) =>{
       valueChange(event.target.value)
@@ -14,7 +16,7 @@ const Search:React.FC<Props> = ({valueChange}) => {
     return (
       <div className='position'>
         <form action="">
-        <input onChange={change} type="search" placeholder="Search here ..."/>
+        <input onChange={change} type="search" placeholder={t("searchHere")}/>
         <i className="fa fa-search"></i>
         </form>
       </div>

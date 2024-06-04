@@ -1,15 +1,17 @@
 
+import { useTranslation } from 'react-i18next';
 import '../../styles/Header.css'
 import NormalButton from '../Buttons/NormalButton';
 
 
 function UpSide() {
+    const { t } = useTranslation();
 
     return (
         <div className="background">
             <div className="up-space">
-                <NormalButton Name='Home' url='/Home'/>
-                <NormalButton Name='Resume' url='/Resume'/>
+                <NormalButton Name={t("home")} url='/Home'/>
+                <NormalButton Name={t("resume")} url='/Resume'/>
             </div>
         </div>
 
