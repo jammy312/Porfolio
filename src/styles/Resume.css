@@ -1,9 +1,17 @@
-#Resume{
+#Data{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 100vh;
+    overflow: auto;
 }
+
+#Resume{
+
+    height: 100%;
+    width: 100%;
+}
+
 
 .image-timeline{
     background-color: #70b6d6;

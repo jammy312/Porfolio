@@ -8,6 +8,7 @@ import Home from './Page/Home'
 import Resume from './Page/Resume'
 //import AnimatedRoutes from './Components/Transition'
 import { AnimatePresence } from 'framer-motion'
+import Description from './Page/Description'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
                 <Route index element = {<Home/>} />
                 <Route path='/home' element = {<Home/>} />
                 <Route path='/resume' element = {<Resume/>} />
+                <Route path='/description' element = {<Description/>} />
             </Routes>
       </AnimatePresence>
       </div>

@@ -11,9 +11,9 @@ function Resume() {
     const workIcon:string = 'src/assets/Images/work.png';
     
     return (
-    <div>   
+    <div id='Resume'>   
         <Search valueChange={setSearchInput}/>
-    <div id='Resume'>
+    <div id='Data'>
              {
                 data.map((data,index) =>{
                     return (
@@ -36,8 +36,8 @@ function Resume() {
                                 })}</div>
                                    <img/>
                                    <div>
-                                        <NormalButton Name={'Voir plus ici'} url='' ></NormalButton>
-
+                                        <NormalButton Name={'Voir plus ici'} url='/description' ></NormalButton>
+                                        
                                    </div>
                                     
                             </div>

@@ -8,10 +8,6 @@ interface Props{
 
 const Search:React.FC<Props> = ({valueChange}) => {
 
-
-
-
-
     const change = (event:ChangeEvent<HTMLInputElement>) =>{
       valueChange(event.target.value)
     }

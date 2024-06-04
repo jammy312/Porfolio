@@ -60,6 +60,6 @@ form:hover .fa{
 .position{
     position: absolute;
     z-index: 3;
-    left: 8%;
-    top: 8%;
+    left: 3%;
+    top: 2%;
 }

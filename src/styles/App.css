@@ -49,6 +49,5 @@
 .all-screen{
   flex-grow: 1;
   position: relative;
-  overflow: auto;
   height: 100vh;
 }
