@@ -12,8 +12,8 @@ import { useTranslation } from 'react-i18next';
 function Projects() {
     const [seachInput, setSearchInput] = useState('');
     const data = getProjectsData(seachInput);
-    const schoolIcon = 'public/assets/Images/School.png';
-    const workIcon:string = 'public/assets/Images/work.png';
+    const schoolIcon = '/assets/Images/School.png';
+    const workIcon:string = '/assets/Images/work.png';
     const { setData } = useAppContext();
     const { t } = useTranslation();
 

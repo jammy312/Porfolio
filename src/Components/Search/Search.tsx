@@ -16,7 +16,7 @@ const Search:React.FC<Props> = ({valueChange}) => {
     return (
       <div className='position'>
         <form action="">
-        <img width="30vh" src="public\assets\Images\seach_icon.png" alt="" />
+        <img width="30vh" src="\assets\Images\seach_icon.png" alt="" />
         <input className="input-color" onChange={change} type="search" placeholder={t("searchHere")}/>
         </form>
       </div>
