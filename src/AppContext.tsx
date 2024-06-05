@@ -27,7 +27,7 @@ export const AppProvider: React.FC<AppProviderProps> = ({ children }) => {
     keyWords: [],
     start: new Date(),
     end: new Date(),
-    task: []
+    tasks: []
 });
 
   return (

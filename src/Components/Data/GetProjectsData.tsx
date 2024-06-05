@@ -7,11 +7,11 @@ export interface Data {
     keyWords:string[];
     image?:string;
     video?:string;
-    lienURL?: string;
+    URL?: string;
     start:Date;
     end:Date;
-    Ecole?:string;
-    task:string[]
+    school?:string;
+    tasks:string[]
 }
 
 function getProjectsData(keyword?:string ):Data[] {
@@ -25,9 +25,9 @@ function getProjectsData(keyword?:string ):Data[] {
             end: stringToDate(projet.end),
             image: projet.image,
             video:projet.video,
-            lienURL: projet.lienUrl,
-            Ecole: projet.Ecole,
-            task: projet.task
+            URL: projet.lienUrl,
+            school: projet.ecole,
+            tasks: projet.tasks
         }
 
         if(keyword && keyword != ''){

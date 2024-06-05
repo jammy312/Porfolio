@@ -20,20 +20,20 @@ function Description() {
             {data.video && <VideoPlayer videoName={data.video}/>}
             {!data.video && data.image &&   <Image imageName={data.image}/>}
         </div>
-        {data.lienURL && (
+        {data.URL && (
         <div  className="Description-sub-title">
            { t("URL") + ':'}
            <div>
-                <a href={data.lienURL} className="Description-comment" >{data.lienURL}</a>
+                <a href={data.URL} className="Description-comment" >{data.URL}</a>
            </div>
 
         </div>
         )}  
 
-        {data.Ecole && (
+        {data.school && (
         <div className="Description-sub-title">
            { t("school") + ':'}
-            <div className="Description-comment" >{data.Ecole}</div>
+            <div className="Description-comment" >{data.school}</div>
 
         </div>
         )}  
@@ -47,8 +47,8 @@ function Description() {
         </div>
         <div className="Description-sub-title">
         { t("task") + ':'}
-        {data.task && <div className='panel-task'>
-        {data.task.map((key,index) => {
+        {data.tasks && <div className='panel-task'>
+        {data.tasks.map((key,index) => {
                                     
                 return <div key={index} className={"Description-comment"}> {"• " + key}</div>
         })}

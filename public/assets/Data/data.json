@@ -1,106 +1,131 @@
 {
-   "projects":   [
+   "projects": [
       {
          "title": "Projet Intégrateur - Conception de système embarqué",
-         "description":"Configurer un microcontrôleur atmega324a en C et avec des makefiles afin de configurer un robot tout en validant son comportement avec le simulateur SimulIDE." ,
-         "keyWords": ["SimulIDE"],
-         "image":"",
+         "description": "Configurer un microcontrôleur ATmega324A en C avec des makefiles pour contrôler un robot et valider son comportement avec le simulateur SimulIDE.",
+         "keyWords": ["SimulIDE", "C", "Makefile"],
+         "image": "",
          "video": "",
-         "lienUrl": "" ,
-         "start":"2021-01",
+         "lienUrl": "",
+         "start": "2021-01",
          "end": "2021-04",
-         "Ecole": "Polytechnique Montréal",
-         "task": ["Travailler en équipe de 4 pour résoudre une problématique complexe", "Déterminer le fonctionnement de l'application SimulIDE" , "Vérifier si le comportement correspond à celui voulu par la problématique"]
-         
+         "ecole": "Polytechnique Montréal",
+         "tasks": [
+            "Travailler en équipe de 4 pour résoudre une problématique complexe",
+            "Maîtriser le fonctionnement de l'application SimulIDE",
+            "Vérifier si le comportement correspond aux attentes définies par la problématique"
+         ]
       },
       {
         "title": "Projet intégrateur – Conception d’une application web",
-        "description":"Créer un jeu de Scrabble (backend et frontend) permettant de faire des parties multijoueur ou contre l’ordinateur." ,
-        "keyWords": ["TypeScript", "Angular" , "WebSocket" , "MangoDB"],
-        "image":"",
+        "description": "Créer un jeu de Scrabble (backend et frontend) permettant de faire des parties multijoueur ou contre l’ordinateur.",
+        "keyWords": ["TypeScript", "Angular", "WebSocket", "MongoDB"],
+        "image": "",
         "video": "",
-        "lienUrl": "https://polytechnique-montr-al.gitlab.io/log2990/20221/equipe-305/log2990-305/#/home" ,
-        "start":"2022-01",
+        "lienUrl": "https://polytechnique-montr-al.gitlab.io/log2990/20221/equipe-305/log2990-305/#/home",
+        "start": "2022-01",
         "end": "2022-04",
-        "Ecole": "Polytechnique Montréal",
-        "task":["Réaliser le projet en utilisant TypeScript, Angular, CSS, MongoDB et des websockets","Travailler en équipe de 6 selon la méthodologie Agile et en utilisant GitLab", "Faire le UI du projet à l'aide du logiciel Figma pour faciliter son implémentation", "Déterminer les tâches à acomplir selon la difficulté à le réaliser ainsi que les forces et faiblesses des coéquipiers", "Écrire des tests unitaires et des tests de regressions pour valider l’ensemble du projet sur Gitlab"]
+        "ecole": "Polytechnique Montréal",
+        "tasks": [
+            "Réaliser le projet en utilisant TypeScript, Angular, CSS, MongoDB et des WebSockets",
+            "Travailler en équipe de 6 selon la méthodologie Agile en utilisant GitLab",
+            "Concevoir l'interface utilisateur avec Figma pour faciliter son implémentation",
+            "Définir les tâches à accomplir en fonction de leur difficulté et des compétences des coéquipiers",
+            "Écrire des tests unitaires et des tests de régression pour valider l’ensemble du projet sur GitLab"
+        ]
       },
-
-      {  
+      {
         "title": "Projet intégrateur - Conception d'une application mobile (Android)",
-        "description":"Reprendre le projet de conception web réalisé l'année passée et le transférer en version mobile tout en ajoutant de nouvelle fonctionnalités." ,
-        "keyWords": ["Dart" , "Angular" , "WebSocket" , "MangoDB"],
-        "image":"",
-       "video": "",
-        "lienUrl": "https://github.com/jammy312/Projet-integrateur-Polytechnique" ,
-        "start":"2023-01",
+        "description": "Adapter le projet de conception web réalisé l'année précédente en version mobile en ajoutant de nouvelles fonctionnalités.",
+        "keyWords": ["Dart", "Flutter", "WebSocket", "MongoDB", "Angular", "Typescript", "Jenkins", "Playwright"],
+        "image": "",
+        "video": "",
+        "lienUrl": "https://github.com/jammy312/Projet-integrateur-Polytechnique",
+        "start": "2023-01",
         "end": "2023-04",
-        "Ecole": "Polytechnique Montréal",
-        "task":["Reprendre les défauts observés durant le projet précédent et les améliorer","Refaire un UI pour la version mobile sur Figma", "Apprendre le langage Dart aend de réaliser le projet","Développer une pipeline CI/CD sur Jenkins afin de réaliser des tests automatisé et le déploiement de l'application"]
-     },
-
+        "ecole": "Polytechnique Montréal",
+        "tasks": [
+            "Corriger les défauts observés lors du projet précédent et les améliorer",
+            "Concevoir une nouvelle interface utilisateur pour la version mobile avec Figma",
+            "Apprendre le langage Dart pour réaliser le projet",
+            "Développer une pipeline CI/CD sur Jenkins pour effectuer des tests automatisés et déployer l'application"
+        ]
+      },
       {
         "title": "Projet intégrateur final - Concours universitaire Ubisoft",
-        "description":"Développer en équipe, en dix semaines, un prototype de jeu video jouable en 3D qui répond au thème, au mandat et aux contraintes qui sont fournis par un jury composé de professionnels et de professionnels d’Ubisoft." ,
-        "keyWords": ["Unreal Engine" , "Notion" , "Jenkins" , "Perforce"],
-        "image":"",
-      "video": "",
-        "lienUrl": "https://lex0re.itch.io/noctambule" ,
-        "start":"2024-01",
+        "description": "Développer en équipe, en dix semaines, un prototype de jeu vidéo jouable en 3D répondant au thème, au mandat et aux contraintes définis par un jury composé de professionnels d’Ubisoft.",
+        "keyWords": ["Unreal Engine", "Notion", "Jenkins", "Perforce"],
+        "image": "",
+        "video": "",
+        "lienUrl": "https://lex0re.itch.io/noctambule",
+        "start": "2024-01",
         "end": "2024-04",
-        "Ecole": "Polytechnique Montréal",
-        "task":["Travailler en équipe de 9 ayant chacune des responsabilités associés à son expérience (Programmeur, Game Designer, Artiste, Musicien), des mentors et des professeurs","Réaliser le projet à l'aide de rencontre Agile à chaque semaine","Réaliser le projet sur Unreal Engine à l'aide de Blueprint", "Déterminer les tâches à accomplir selon la difficulté à le réaliser sur Notion", "Développer une pipeline CI/CD sur Jenkins afin de réaliser des tests automatisé et le déploiement du jeux"]
-     },
-
-     {
+        "ecole": "Polytechnique Montréal",
+        "tasks": [
+            "Travailler en équipe de 9 avec des rôles spécifiques selon les compétences (Programmeur, Game Designer, Artiste, Musicien), sous la supervision de mentors et professeurs",
+            "Utiliser la méthodologie Agile avec des réunions hebdomadaires",
+            "Développer le projet sur Unreal Engine en utilisant Blueprint",
+            "Définir les tâches à accomplir selon leur difficulté sur Notion",
+            "Mettre en place une pipeline CI/CD sur Jenkins pour effectuer des tests automatisés et déployer le jeu"
+        ]
+      },
+      {
         "title": "Projet intégrateur - Conception d'un jeu en Java",
-        "description":"Développer en équipe de trois un jeux en Java qui démontre l'utilisation de la physique et des concepts qui seront en lien." ,
-        "keyWords": ["Java", "Gitlab" ],
-        "image":"",
-       "video": "",
-        "lienUrl": "https://github.com/jammy312/Projet-Maisonneuve" ,
-        "start":"2020-01",
+        "description": "Développer en équipe de trois un jeu en Java démontrant l'utilisation de la physique et des concepts associés.",
+        "keyWords": ["Java", "GitLab"],
+        "image": "",
+        "video": "",
+        "lienUrl": "https://github.com/jammy312/Projet-Maisonneuve",
+        "start": "2020-01",
         "end": "2020-05",
-        "Ecole": "Collège Maisonneuve",
-        "task":["Travailler en équipe de 3 afin de déterminer quelle jeu réaliser"]
-     },
-
-     {
-        "title": "Projet parascholaire - Conception d'un jeu sur construct 3",
-        "description":"Développer en équipe de 4 un jeux selon un temps déterminé." ,
-        "keyWords": ["Construct 3"],
-        "image":"",
-       "video": "",
-        "lienUrl": "" ,
-        "start":"2017-10",
+        "ecole": "Collège Maisonneuve",
+        "tasks": [
+            "Travailler en équipe de 3 pour déterminer quel jeu réaliser"
+        ]
+      },
+      {
+        "title": "Projet parascolaire - Conception d'un jeu sur Construct 3",
+        "description": "Développer en équipe de 4 un jeu dans un temps imparti.",
+        "keyWords": ["Construct 3", "PiskelApp"],
+        "image": "",
+        "video": "",
+        "lienUrl": "",
+        "start": "2017-10",
         "end": "2018-03",
-        "Ecole": "École secondaire Henri-Bourassa",
-        "task":["Créer les personnages à l'aide du site PiskelApp (n'est plus en ligne)", "Déterminer quelle jeux sera développé ainsi que les fonctionnalités à réaliser sur Trello", "Faire des playtests de manière hebdomadaire avec les mentors ainsi que des volontaires", "Coopérer avec d'autres équipes afin d'avoir une meilleure apprentissage de Construct 3 ainsi que d'améliorer le projet"]
-     },
-    {
-        "title": "Projet personnelle - Maintenance d'un site Web",
-        "description":"Réaliser la maintenance d'un site web demandé par un professeur de l'École de Technologie Supérieur (ETS) en JavaScript." ,
-        "keyWords": ["JavaScript" , "Méthodes agiles" , "Réalisation de tests"],
-        "image":"",
-       "video": "",
-        "lienUrl": "" ,
-        "start":"2021-09",
+        "ecole": "École secondaire Henri-Bourassa",
+        "tasks": [
+            "Créer les personnages avec PiskelApp (site désormais hors ligne)",
+            "Déterminer le jeu à développer et les fonctionnalités à réaliser sur Trello",
+            "Faire des playtests hebdomadaires avec les mentors et des volontaires",
+            "Collaborer avec d'autres équipes pour une meilleure maîtrise de Construct 3 et pour améliorer le projet"
+        ]
+      },
+      {
+        "title": "Projet personnel - Maintenance d'un site Web",
+        "description": "Assurer la maintenance d'un site web pour un professeur de l'École de Technologie Supérieure (ETS) en JavaScript.",
+        "keyWords": ["JavaScript", "Google Drive", "Github"],
+        "image": "",
+        "video": "",
+        "lienUrl": "",
+        "start": "2021-09",
         "end": "2021-12",
-        "task":["En équipe de 3, déterminer quelle tâche serait à réaliser le plus rapidement que possible selon la difficulté à le réaliser", "Apprendre le langage Javascript afin de réaliser le projet demandé par le professeur", "Modifier les couleurs de l'interface utilisateur pour améliorer l'esthétique de la page web", "Faire des rencontres hebdomadaire afin de faire des tests d'acceptation sur chaque fonctionnalités réalisés"]
-     },
-
-     {
-        "title": "Projet personnelle - Création d'un site de planificateur d'événement",
-        "description":"Planifier et réaliser un site web sur la planification d'événement en utilisant le logiciel WordPress." ,
-        "keyWords": ["WordPress"],
-        "image":"",
-       "video": "",
-        "lienUrl": "" ,
-        "start":"2020-06",
+        "tasks": [
+            "En équipe de 3, déterminer les tâches à réaliser en fonction de leur urgence et difficulté",
+            "Apprendre le langage JavaScript pour mener à bien le projet demandé par le professeur",
+            "Modifier les couleurs de l'interface utilisateur pour améliorer l'esthétique de la page web",
+            "Organiser des rencontres hebdomadaires pour effectuer des tests d'acceptation sur chaque fonctionnalité réalisée"
+        ]
+      },
+      {
+        "title": "Projet personnel - Création d'un site de planification d'événements",
+        "description": "Planifier et réaliser un site web de planification d'événements en utilisant WordPress.",
+        "keyWords": ["WordPress", "Google Drive"],
+        "image": "",
+        "video": "",
+        "lienUrl": "",
+        "start": "2020-06",
         "end": "2021-09",
-        "task":[""]
-     }
+        "tasks": [ ]
+      }
    ]
 }
-
-    

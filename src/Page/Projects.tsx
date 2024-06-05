@@ -28,7 +28,7 @@ function Projects() {
                             <div className='timeline'>
                                 <div className='date'>{t("from") + ': ' + data.start.getFullYear() + '-' + data.start.getMonth() + ' ' + t("to") + " " + data.end.getFullYear() + '-' + data.end.getMonth() }</div>
                                 <div className='line-bottom'></div>
-                                <img className = 'image-timeline' src={data.Ecole? schoolIcon: workIcon}/>
+                                <img className = 'image-timeline' src={data.school? schoolIcon: workIcon}/>
                                 <div className='line-side'></div>
                             </div>
                             <div className='panel'>
