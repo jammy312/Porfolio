@@ -11,5 +11,6 @@
     "tags": "Tags",
     "from": "From",
     "to": "to",
-    "task":"Task"
+    "task":"Task",
+    "hello": "Hello"
 }

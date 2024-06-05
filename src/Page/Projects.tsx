@@ -40,16 +40,10 @@ function Projects() {
                                     let className = 'panel-keyword';
                                     if(seachInput != '' && key.toLowerCase().startsWith(seachInput.toLowerCase()))
                                         className += ' found-keyword'
-
                                     return <span key={index} className={className}> {key}</span>
                                 })}</div>
-                                   <img/>
                                    <div>
-                                        <NormalButton Name={t("seeMoreHere")} url='/description' onClick={
-                                            () => {
-                                                setData(data);
-                                            }
-                                        } ></NormalButton>      
+                                        <NormalButton Name={t("seeMoreHere")} url='/description' onClick={() => setData(data)}/>      
                                    </div>
                             </div>
                         </div>
