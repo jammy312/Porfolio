@@ -1,4 +1,4 @@
-import data from '../../assets/Data/Resume.json'
+import data from '../../../public/assets/Data/Resume.json';
 
 export interface ResumeData{
     title: string,

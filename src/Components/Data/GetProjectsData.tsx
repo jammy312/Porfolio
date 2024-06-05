@@ -1,5 +1,5 @@
 
-import data from '../../assets/Data/data.json';
+import data from '../../../public/assets/Data/data.json';
 
 export interface Data {
     title: string;

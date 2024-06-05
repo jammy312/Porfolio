@@ -5,8 +5,8 @@ import '../styles/Resume.css'
 
 function Resume(){
     const data = GetResumeData();
-    const schoolIcon = 'src/assets/Images/School.png';
-    const workIcon:string = 'src/assets/Images/work.png';
+    const schoolIcon = 'public/assets/Images/School.png';
+    const workIcon:string = 'public/assets/Images/work.png';
     const { t } = useTranslation();
     
     return (

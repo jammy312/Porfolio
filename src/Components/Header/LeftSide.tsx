@@ -7,8 +7,8 @@ function LeftSide() {
     return (
         <div className='background'>
             <div className="left-space">
-                <ButtonURL url= {"https://www.linkedin.com/in/james-brutus/"} imagePath='src\assets\Images\linkedin.png'/>
-                <ButtonURL url= {"https://github.com/jammy312"} imagePath='src\assets\Images\github.png'/>
+                <ButtonURL url= {"https://www.linkedin.com/in/james-brutus/"} imagePath='public\assets\Images\linkedin.png'/>
+                <ButtonURL url= {"https://github.com/jammy312"} imagePath='public\assets\Images\github.png'/>
             </div>
         </div>
 
