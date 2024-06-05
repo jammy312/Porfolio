@@ -49,7 +49,7 @@
         "start":"2024-01",
         "end": "2024-04",
         "Ecole": "Polytechnique Montréal",
-        "task":[]
+        "task":["Travailler en équipe de 9 ayant chacune des responsabilités associés à son expérience (Programmeur, Game Designer, Artiste, Musicien), des mentors et des professeurs","Réaliser le projet à l'aide de rencontre Agile à chaque semaine","Réaliser le projet sur Unreal Engine à l'aide de Blueprint", "Déterminer les tâches à accomplir selon la difficulté à le réaliser sur Notion", "Développer une pipeline CI/CD sur Jenkins afin de réaliser des tests automatisé et le déploiement du jeux"]
      },
 
      {
@@ -62,7 +62,7 @@
         "start":"2020-01",
         "end": "2020-05",
         "Ecole": "Collège Maisonneuve",
-        "task":[]
+        "task":["Travailler en équipe de 3 afin de déterminer quelle jeu réaliser", ""]
      },
 
      {
