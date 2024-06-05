@@ -1,14 +1,15 @@
 {
-    "seeMoreHere": "voir plus ici...",
-    "school": "ecole",
+    "seeMoreHere": "Voir plus ici...",
+    "school": "École",
     "date": "Date",
     "description": "Description",
-    "backToProjects": "retour au projet",
-    "home": " maison",
-    "resume": "reséum",
-    "projects": "peos",
-    "searchHere": "Search here...",
-    "tags": "Tags",
-    "from": "From",
-    "to": "to"
+    "backToProjects": "Retour aux projets",
+    "home": "Accueil",
+    "resume": "CV",
+    "projects": "Projets",
+    "searchHere": "Rechercher ici...",
+    "tags": "Étiquettes",
+    "from": "De",
+    "to": "à",
+    "task":"tâche"
 }

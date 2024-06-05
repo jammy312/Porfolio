@@ -10,5 +10,6 @@
     "searchHere": "Search here...",
     "tags": "Tags",
     "from": "From",
-    "to": "to"
+    "to": "to",
+    "task":"task"
 }
