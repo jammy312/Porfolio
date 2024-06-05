@@ -1,12 +1,12 @@
 import '../../styles/ButtonURL.css'
 interface Props {
     url: string;
-    imagePath?:string;
+    imagePath:string;
   }
 
 
 const ButtonURL: React.FC<Props> = ({ url,imagePath }) => {
-    const path:string = imagePath ?? viteLogo;
+    const path:string = imagePath ;
 
     return (
         <div>
