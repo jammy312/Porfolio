@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
-import { Data } from './Components/Data/GetData';
+import { Data } from './Components/Data/GetProjectsData';
 
 interface AppContextType {
     data: Data;

@@ -13,7 +13,7 @@ export interface Data {
     Ecole?:string;
 }
 
-function getData(keyword?:string ):Data[] {
+function getProjectsData(keyword?:string ):Data[] {
     let allData:Data[] = [];
     data.projects.map( (projet) =>{
         const data:Data = {
@@ -62,5 +62,5 @@ function stringToDate(date:string){
 }
 
 
-export default getData;
+export default getProjectsData;
 

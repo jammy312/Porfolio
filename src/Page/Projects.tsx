@@ -1,6 +1,6 @@
 import Transition from '../Components/Transition'
-import getData from '../Components/Data/GetData'
-import '../styles/Resume.css'
+import getProjectsData from '../Components/Data/GetProjectsData'
+import '../styles/Projects.css'
 import NormalButton from '../Components/Buttons/NormalButton';
 import Search from '../Components/Search/Search';
 import { useState } from 'react';
@@ -11,14 +11,14 @@ import { useTranslation } from 'react-i18next';
 
 function Projects() {
     const [seachInput, setSearchInput] = useState('');
-    const data = getData(seachInput);
+    const data = getProjectsData(seachInput);
     const schoolIcon = 'src/assets/Images/School.png';
     const workIcon:string = 'src/assets/Images/work.png';
     const { setData } = useAppContext();
     const { t } = useTranslation();
 
     return (
-    <div id='Resume'>   
+    <div id='Projects'>   
         <Search valueChange={setSearchInput}/>
     <div id='Data'>
              {

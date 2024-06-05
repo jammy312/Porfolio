@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Data } from "./Data/GetData";
+import { Data } from "./Data/GetProjectsData";
 
 const Description = () => {
     const [data,setData] = useState<Data>();
