@@ -48,7 +48,6 @@ function Projects() {
                                         <NormalButton Name={t("seeMoreHere")} url='/description' onClick={
                                             () => {
                                                 setData(data);
-                                                //Description().changeData(data);
                                             }
                                         } ></NormalButton>      
                                    </div>

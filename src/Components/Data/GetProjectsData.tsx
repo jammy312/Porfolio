@@ -59,7 +59,6 @@ function getProjectsData(keyword?:string ):Data[] {
 
 function stringToDate(date:string){
     const dateValue:string[] = date.split('-');
-    console.log(parseInt(dateValue[1] , 10 ));
     return new Date( parseInt(dateValue[0] , 10 ), parseInt(dateValue[1] , 10 ) )
 }
 

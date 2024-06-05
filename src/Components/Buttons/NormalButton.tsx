@@ -20,7 +20,6 @@ const NormalButton: React.FC<Props> = ({ Name,url, onClick }) => {
     const handleClick = () => {
       if(onClick)
         onClick();
-      console.log("yes");
       if(url)
           navigate(url);
     };
