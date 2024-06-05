@@ -67,19 +67,19 @@
 
      {
         "title": "Projet parascholaire - Conception d'un jeu sur construct 3",
-        "description":"Développer en équipe de 4 un jeux de base pour " ,
+        "description":"Développer en équipe de 4 un jeux selon un temps déterminé." ,
         "keyWords": ["Construct 3"],
         "image":"",
        "video": "",
         "lienUrl": "" ,
         "start":"2017-10",
         "end": "2018-03",
-        "Ecole": "École secondaire henri-Bourassa",
-        "task":[]
+        "Ecole": "École secondaire Henri-Bourassa",
+        "task":["Créer les personnages à l'aide du site PiskelApp (n'est plus en ligne)", "Déterminer quelle jeux sera développé ainsi que les fonctionnalités à réaliser sur Trello", "Faire des playtests de manière hebdomadaire avec les mentors ainsi que des volontaires", "Coopérer avec d'autres équipes afin d'avoir une meilleure apprentissage de Construct 3 ainsi que d'améliorer le projet"]
      },
     {
         "title": "Projet personnelle - Maintenance d'un site Web",
-        "description":"Réaliser la maintenance d'un site web demandé par un professeur de l'École de Technologie Supérieur en JavaScript" ,
+        "description":"Réaliser la maintenance d'un site web demandé par un professeur de l'École de Technologie Supérieur (ETS) en JavaScript." ,
         "keyWords": ["JavaScript" , "Méthodes agiles" , "Réalisation de tests"],
         "image":"",
        "video": "",
@@ -91,7 +91,7 @@
 
      {
         "title": "Projet personnelle - Création d'un site de planificateur d'événement",
-        "description":"Planifier et réaliser un site web sur la planification d'événement en utilisant le logiciel WordPress" ,
+        "description":"Planifier et réaliser un site web sur la planification d'événement en utilisant le logiciel WordPress." ,
         "keyWords": ["WordPress"],
         "image":"",
        "video": "",
