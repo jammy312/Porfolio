@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 import GetResumeData from "../Components/Data/GetResumeData";
 import Transition from "../Components/Transition";
-import '../styles/Resume.css'
+import '../styles/Experience.css'
 
-function Resume(){
+function Experience(){
     const data = GetResumeData();
     const schoolIcon = '/assets/Images/School.png';
     const workIcon:string = '/assets/Images/work.png';
@@ -42,4 +42,4 @@ function Resume(){
     </div>)
 }
 
-export default Transition(Resume)
+export default Transition(Experience)
