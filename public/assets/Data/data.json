@@ -1,51 +1,55 @@
 {
    "projects":   [
       {
-       "title": "Projet Intégrateur - Conception de système embarqué",
-       "description":"Configurer un microcontrôleur atmega324a en C et avec des makefiles pour aend de configurer un robot tout en validant son comportement avec le simulateur SimulIDE. Travailler en équipe pour résoudre une problématique complexe" ,
-       "keyWords": ["SimulIDE"],
-       "image":"1305915.jpeg",
-      "video": "",
-       "lienUrl": "" ,
-       "start":"2021-01",
-       "end": "2021-04",
-       "Ecole": "Polytechnique Montréal"
-       
+         "title": "Projet Intégrateur - Conception de système embarqué",
+         "description":"Configurer un microcontrôleur atmega324a en C et avec des makefiles afin de configurer un robot tout en validant son comportement avec le simulateur SimulIDE." ,
+         "keyWords": ["SimulIDE"],
+         "image":"",
+         "video": "",
+         "lienUrl": "" ,
+         "start":"2021-01",
+         "end": "2021-04",
+         "Ecole": "Polytechnique Montréal",
+         "task": ["Travailler en équipe de 4 pour résoudre une problématique complexe", "Déterminer le fonctionnement de l'application SimulIDE" , "Vérifier si le comportement correspond à celui voulu par la problématique"]
+         
       },
       {
         "title": "Projet intégrateur – Conception d’une application web",
-        "description":"Créer un jeu de Scrabble (backend et frontend) permettant de faire des parties multijoueur et contre l’ordinateur en utilisant TypeScript, Angular, CSS, MongoDB et des websockets. Travailler en équipe de 6 selon la méthodologie Agile en utilisant GitLab.  Écrire des tests unitaires et des tests de regressions pour valider l’ensemble du projet." ,
+        "description":"Créer un jeu de Scrabble (backend et frontend) permettant de faire des parties multijoueur ou contre l’ordinateur." ,
         "keyWords": ["TypeScript", "Angular" , "WebSocket" , "MangoDB"],
-        "image":"1305915.jpeg",
+        "image":"",
         "video": "",
         "lienUrl": "https://polytechnique-montr-al.gitlab.io/log2990/20221/equipe-305/log2990-305/#/home" ,
         "start":"2022-01",
         "end": "2022-04",
-        "Ecole": "Polytechnique Montréal"
+        "Ecole": "Polytechnique Montréal",
+        "task":["Réaliser le projet en utilisant TypeScript, Angular, CSS, MongoDB et des websockets","Travailler en équipe de 6 selon la méthodologie Agile et en utilisant GitLab", "Faire le UI du projet à l'aide du logiciel Figma pour faciliter son implémentation", "Déterminer les tâches à acomplir selon la difficulté à le réaliser ainsi que les forces et faiblesses des coéquipiers", "Écrire des tests unitaires et des tests de regressions pour valider l’ensemble du projet sur Gitlab"]
       },
 
       {  
         "title": "Projet intégrateur - Conception d'une application mobile (Android)",
-        "description":"Reprendre le projet de conception web réalisé l'année passée et le transférer en version mobile tout en ajoutant de nouvelle fonctionnalités.Apprendre le langage Dart aend de réaliser le projet. Développer une pipeline CI/CD pour aend de réaliser des tests automatisé et le déploiement." ,
+        "description":"Reprendre le projet de conception web réalisé l'année passée et le transférer en version mobile tout en ajoutant de nouvelle fonctionnalités." ,
         "keyWords": ["Dart" , "Angular" , "WebSocket" , "MangoDB"],
         "image":"",
-       "video": "ConcoursUbi - Unreal Editor 2024-03-06 12-14-00.mp4",
+       "video": "",
         "lienUrl": "https://github.com/jammy312/Projet-integrateur-Polytechnique" ,
         "start":"2023-01",
         "end": "2023-04",
-        "Ecole": "Polytechnique Montréal"
+        "Ecole": "Polytechnique Montréal",
+        "task":["Reprendre les défauts observés durant le projet précédent et les améliorer","Refaire un UI pour la version mobile sur Figma", "Apprendre le langage Dart aend de réaliser le projet","Développer une pipeline CI/CD sur Jenkins afin de réaliser des tests automatisé et le déploiement de l'application"]
      },
 
       {
-        "title": "Projet intégrateur endal - Concours universitaire Ubisoft",
-        "description":"Développer en équipe, en dix semaines, un prototype de jeu video jouable en 3D qui répond au thème, au mandat et aux contraintes qui sont fournis par un jury composé de professionnels et de professionnels d’Ubisoft. " ,
+        "title": "Projet intégrateur final - Concours universitaire Ubisoft",
+        "description":"Développer en équipe, en dix semaines, un prototype de jeu video jouable en 3D qui répond au thème, au mandat et aux contraintes qui sont fournis par un jury composé de professionnels et de professionnels d’Ubisoft." ,
         "keyWords": ["Unreal Engine" , "Notion" , "Jenkins" , "Perforce"],
         "image":"",
-       "video": "",
+      "video": "",
         "lienUrl": "https://lex0re.itch.io/noctambule" ,
         "start":"2024-01",
         "end": "2024-04",
-        "Ecole": "Polytechnique Montréal"
+        "Ecole": "Polytechnique Montréal",
+        "task":[]
      },
 
      {
@@ -57,7 +61,8 @@
         "lienUrl": "https://github.com/jammy312/Projet-Maisonneuve" ,
         "start":"2020-01",
         "end": "2020-05",
-        "Ecole": "Collège Maisonneuve"
+        "Ecole": "Collège Maisonneuve",
+        "task":[]
      },
 
      {
@@ -66,10 +71,11 @@
         "keyWords": ["Construct 3"],
         "image":"",
        "video": "",
-        "lienUrl": "https://github.com/jammy312/Projet-Maisonneuve" ,
+        "lienUrl": "" ,
         "start":"2017-10",
         "end": "2018-03",
-        "Ecole": "École secondaire henri-Bourassa"
+        "Ecole": "École secondaire henri-Bourassa",
+        "task":[]
      },
     {
         "title": "Projet personnelle - Maintenance d'un site Web",
@@ -79,7 +85,8 @@
        "video": "",
         "lienUrl": "" ,
         "start":"2021-09",
-        "end": "2021-12"
+        "end": "2021-12",
+        "task":[]
      },
 
      {
@@ -90,7 +97,8 @@
        "video": "",
         "lienUrl": "" ,
         "start":"2020-06",
-        "end": "2021-09"
+        "end": "2021-09",
+        "task":[]
      }
    ]
 

@@ -46,6 +46,16 @@ function Description() {
             <div className="Description-comment" >{data.description}</div>
         </div>
         <div className="Description-sub-title">
+        { t("task") + ':'}
+        {data.task && <div className='panel-task'>
+        {data.task.map((key,index) => {
+                                    
+                return <div key={index} className={"Description-comment"}> {"• " + key}</div>
+        })}
+        </div> 
+        }
+        </div>
+        <div className="Description-sub-title">
         { t("tags") + ':'}
             <div className='panel-keywords Description-comment'>{data.keyWords.map((key,index) => {
                 let className = 'Description-keyword';
@@ -53,6 +63,7 @@ function Description() {
             })}</div>
         </div>
         </div>
+        
     </div>)
 }
 

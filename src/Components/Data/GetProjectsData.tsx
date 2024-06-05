@@ -11,6 +11,7 @@ export interface Data {
     start:Date;
     end:Date;
     Ecole?:string;
+    task:string[]
 }
 
 function getProjectsData(keyword?:string ):Data[] {
@@ -25,7 +26,8 @@ function getProjectsData(keyword?:string ):Data[] {
             image: projet.image,
             video:projet.video,
             lienURL: projet.lienUrl,
-            Ecole: projet.Ecole
+            Ecole: projet.Ecole,
+            task: projet.task
         }
 
         if(keyword && keyword != ''){
