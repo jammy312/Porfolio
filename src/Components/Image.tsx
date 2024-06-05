@@ -5,7 +5,7 @@ interface Props{
 }
 
 const Image: React.FC<Props> = ({ imageName }) => {
-    const videoPath = "public/assets/Data/Images/"
+    const videoPath = "/assets/Data/Images/"
     return(<img width="60%"  src={videoPath + imageName}></img>);
 }
 

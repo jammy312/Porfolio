@@ -5,7 +5,7 @@ interface VideoPlayerProps {
 }
 
 const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoName }) => {
-    const videoPath = "public/assets/Data/Videos/"
+    const videoPath = "/assets/Data/Videos/"
   return (
     <div >
       <video width="60%" controls>
