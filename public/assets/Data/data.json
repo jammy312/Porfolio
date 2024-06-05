@@ -62,7 +62,7 @@
         "start":"2020-01",
         "end": "2020-05",
         "Ecole": "Collège Maisonneuve",
-        "task":["Travailler en équipe de 3 afin de déterminer quelle jeu réaliser", ""]
+        "task":["Travailler en équipe de 3 afin de déterminer quelle jeu réaliser"]
      },
 
      {
@@ -86,7 +86,7 @@
         "lienUrl": "" ,
         "start":"2021-09",
         "end": "2021-12",
-        "task":[]
+        "task":["En équipe de 3, déterminer quelle tâche serait à réaliser le plus rapidement que possible selon la difficulté à le réaliser", "Apprendre le langage Javascript afin de réaliser le projet demandé par le professeur", "Modifier les couleurs de l'interface utilisateur pour améliorer l'esthétique de la page web", "Faire des rencontres hebdomadaire afin de faire des tests d'acceptation sur chaque fonctionnalités réalisés"]
      },
 
      {
@@ -98,12 +98,9 @@
         "lienUrl": "" ,
         "start":"2020-06",
         "end": "2021-09",
-        "task":[]
+        "task":[""]
      }
    ]
-
-
-
 }
 
     
