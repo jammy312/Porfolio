@@ -10,6 +10,7 @@ import Experience from './Page/Experience'
 
 function App() {
   const location = useLocation();
+  document.title ="Portfolio";
   return (
     <>    
     <UpSide/>
@@ -19,9 +20,9 @@ function App() {
         <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>
                 <Route index element = {<Home/>} />
-                <Route path='/home' element = {<Home/>} />
-                <Route path='/projects' element = {<Projects/>} />
-                <Route path='/projects/description' element = {<Description/>} />
+                <Route path='/Home' element = {<Home/>} />
+                <Route path='/Projects' element = {<Projects/>} />
+                <Route path='/Projects/Description' element = {<Description/>} />
                 <Route path='/Experience' element = {<Experience/>} />
             </Routes>
       </AnimatePresence>
