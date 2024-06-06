@@ -1,22 +1,15 @@
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../../styles/NormalButton.css'
 interface Props {
     Name: string;
     url?: string;
     onClick?: ()=> void;
+    className?: string
   }
 
 
-const NormalButton: React.FC<Props> = ({ Name,url, onClick }) => {
-    const location = useLocation();
+const NormalButton: React.FC<Props> = ({ Name,url, onClick, className = "button" }) => {
     const navigate = useNavigate();
-    let className:string = 'button'
-    
-    if(url == location.pathname){
-        className+= ' hover';
-    }
-    
-
     const handleClick = () => {
       if(onClick)
         onClick();

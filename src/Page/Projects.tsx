@@ -43,7 +43,7 @@ function Projects() {
                                     return <span key={index} className={className}> {key}</span>
                                 })}</div>
                                    <div>
-                                        <NormalButton Name={t("seeMoreHere")} url='/description' onClick={() => setData(data)}/>      
+                                        <NormalButton Name={t("seeMoreHere")} url='/Projects/Description' onClick={() => setData(data)}/>      
                                    </div>
                             </div>
                         </div>
