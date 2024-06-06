@@ -39,7 +39,7 @@ function Description() {
         )}  
         <div className="Description-sub-title">
             { t("date") + ':'}
-            <div className="Description-comment" >{data.start.getFullYear() + '-' + data.start.getMonth() + ' to ' + data.end.getFullYear() + '-' + data.end.getMonth()}</div>
+            <div className="Description-comment" >{data.start.getFullYear() + '-' + data.start.getMonth() + ' ' + t('to') + ' ' + data.end.getFullYear() + '-' + data.end.getMonth()}</div>
         </div>
         <div className="Description-sub-title">
         { t("description") + ':'}
