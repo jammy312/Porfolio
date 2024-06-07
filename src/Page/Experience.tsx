@@ -25,6 +25,9 @@ function Experience(){
                             <div className='panel'>
                                 <h2 className="panel-title" > {data.title}</h2>
                                 <div >{data.environment}</div>
+                                <div>
+                                    <a href={data.lienUrl} className="Description-comment" >{data.lienUrl}</a>
+                                 </div>
                                 {data.task && <div className='panel-task'>
                                         <h3>{t("task") + ":"}</h3>
                                         {data.task.map((key,index) => {

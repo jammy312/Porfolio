@@ -6,44 +6,20 @@ export interface ResumeData{
     start: number,
     end: number,
     isSchool: boolean | undefined,
-    schoolType: SchoolType | undefined
+    lienUrl: string,
     task: string[] | undefined
-}
-
-export enum SchoolType {
-    University,
-    Cegep,
-    Secondary
 }
 
 function GetResumeData(){
     let allData:ResumeData[] = [];
     data.Resume.map( (resume) => {
-        let schoolType = undefined;
-        if(resume.schoolType){
-            switch (resume.schoolType) {
-                case "University":
-                    schoolType = SchoolType.University
-                    break;
-                case "Cegep":
-                    schoolType = SchoolType.Cegep
-                    break;                
-                case "Secondaire":
-                    schoolType = SchoolType.Secondary
-                    break;          
-                default:
-                    schoolType = SchoolType.Cegep
-                    break;
-            }
-        }
-
         const data:ResumeData = {
             title: resume.title,
             environment: resume.environment,
             start: resume.start,
             end: resume.end,
             isSchool: resume.isSchool,
-            schoolType: schoolType ,
+            lienUrl: resume.lienUrl ,
             task: resume.task
         }
         allData.push(data);

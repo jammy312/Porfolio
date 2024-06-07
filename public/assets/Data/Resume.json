@@ -5,31 +5,32 @@
             "environment": "Polytechnique Montréal",
             "start": 2020,
             "end": 2024,
-            "isSchool": true,
-            "schoolType": "University"
+            "lienUrl": "https://www.polymtl.ca/",
+            "isSchool": true
         },
 
         {
             "title": "DEC (Diplôme d'études collégiales)",
             "environment": "Cégep Maisonneuve",
+            "lienUrl": "https://www.cmaisonneuve.qc.ca/",
             "start": 2018,
             "end": 2020,
-            "isSchool": true,
-            "schoolType": "Cegep"
+            "isSchool": true
         },
 
         {
             "title": "DES (Diplôme d'études secondaire)",
             "environment": "École secondaire Henri-Bourassa",
+            "lienUrl": "https://henribourassa.csspi.ca/",
             "start": 2013,
             "end": 2018,
-            "isSchool": true,
-            "schoolType": "Secondaire"
+            "isSchool": true
         },
 
         {
             "title": "Stagiaire",
             "environment": "Stingray",
+            "lienUrl": "https://www.stingray.com/fr",
             "start": 2022,
             "end": 2022,
             "task": ["Utiliser des pratiques Agile afin d’élaborer, analyser et développer des produits logiciels", "Développer de nouvelles fonctionnalités demandées par les parties prenantes en Java et ReactJs","Collaborer avec les autres équipes pour analyser les besoins et identifier les changements requis", "Améliorer des micro-services déjà produits qui améliorent l'interaction avec le site avec AWS ", "Réaliser des tests automatiques afin d’assurer la maintenance d’une fonctionnalité sur Gitlab"]
@@ -38,6 +39,7 @@
         {
             "title": "Stagiaire",
             "environment": "Nomadis",
+            "lienUrl": "https://nomadis.co/fr/",
             "start": 2023,
             "end": 2023,
             "task": ["Participer aux rencontres Agile pour la planification et l’analyse de la plateforme sur Jira", "Concevoir et maintenir les fonctionnalités dans la plateforme en C#/.NET et Angular", "Résoudre des problèmes de qualité observés dans les rapports de la compagnie avec Crystal Report Designer", "Définir et prendre des décisions de manière autonmes lors de la résolution de problèmes complexes", "Présenter les apprentissages découverts lors de la réalisation de ma tâches à mes collègues lors d'une communication ainsi que d'un rapport","Étudier et maintenir la base de données de la compagnie en utilisant Microsoft SQL server" ]
