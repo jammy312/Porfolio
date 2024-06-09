@@ -1,0 +1,11 @@
+#information-panel{
+    display: flex;
+    flex-direction: column;
+    --tw-bg-opacity: 1;
+    border: 2px solid;
+    border-color: rgba(75, 85, 99, var(--tw-border-opacity));
+    border-radius: 1%;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    text-align: center;
+    margin: 8% 10%;
+}

@@ -11,17 +11,9 @@
     overflow: auto;
 }
 
-
-
 .Description-title{
     font-size: xx-large;
     margin-bottom: 2%;
-}
-
-.Description-sub-title{
-    font-size: x-large;
-    margin: 0.2% 3%;
-    text-align: justify;
 }
 
 .Description-comment{
