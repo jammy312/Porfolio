@@ -5,10 +5,13 @@ import InformationPanel from '../Components/InformationPanel';
 function Home() {
  const {t} = useTranslation();
     return (
-        <InformationPanel>
-            <h1>{t("hello") + "!"}</h1>
-            <h3 className='center-text'>{t("homeDescription")}</h3>
-        </InformationPanel>
+        <div className='overflow'>
+            <InformationPanel>
+                <h1>{t("hello") + "!"}</h1>
+                <h3 className='center-text'>{t("homeDescription")}</h3>
+            </InformationPanel>            
+        </div>
+
     )
 }
 export default Transition(Home)

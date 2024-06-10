@@ -3,3 +3,8 @@
     margin: 5%;
 }
 
+.overflow{
+    overflow: auto;
+    height: 100%;
+}
+

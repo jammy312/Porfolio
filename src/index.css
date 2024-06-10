@@ -53,8 +53,4 @@ button:hover {
   border-color: #646cff;
 }
 
-@media only screen and (max-width: 600px) {
-  #root {
-    flex-direction: column-reverse;
-  }
-}
+
