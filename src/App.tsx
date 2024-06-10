@@ -25,7 +25,7 @@ function App() {
                 <Route path='/Projects/Description' element = {<Description/>} />
                 <Route path='/Experience' element = {<Experience/>} />
             </Routes>
-      </AnimatePresence>
+        </AnimatePresence>
       </div>
 
     </div>

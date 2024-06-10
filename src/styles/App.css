@@ -1,8 +1,3 @@
-#root {
-
-  text-align: justify;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -44,11 +39,17 @@
   flex-direction: row;
   flex-grow: 1;
   position: relative;
+  height: 93.5vh;
 }
 
 .all-screen{
   flex-grow: 1;
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .all-screen {
+    overflow: auto;
+  }
+}

@@ -5,7 +5,7 @@ const Transition = (OgComponent: React.ComponentType<any>) => {
   return (props: any) => {
 
     return (
-      <div>
+      <>
         <OgComponent {...props} />
         <motion.div
           className="slide-in"
@@ -21,7 +21,7 @@ const Transition = (OgComponent: React.ComponentType<any>) => {
           exit={{ scaleY: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         />
-      </div>
+      </>
     );
   };
 };
