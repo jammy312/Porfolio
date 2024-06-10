@@ -13,7 +13,8 @@
          "tasks": [
             "Travailler en équipe de 4 pour résoudre une problématique complexe",
             "Maîtriser le fonctionnement de l'application SimulIDE",
-            "Vérifier si le comportement correspond aux attentes définies par la problématique"
+            "Vérifier si le comportement correspond aux attentes définies par la problématique",
+            "Se partager les tâches selon les fonctionnalités demandés ainsi que les dépendances entre eux"
          ]
       },
       {
@@ -80,7 +81,11 @@
         "end": "2020-05",
         "ecole": "Collège Maisonneuve",
         "tasks": [
-            "Travailler en équipe de 3 pour déterminer quel jeu réaliser"
+            "Travailler en équipe de 3 pour déterminer quel jeu réaliser",
+            "Partager le projet en Sprint afin de déterminer l'avancement du projet",
+            "Faire des rencontres hebdomadaires selon la méthodologie Agile avec le professeur",
+            "Faire des recherches sur internet afin de déterminer les formules physiques de la balle selon la collision entre les murs et la gravité qu'il traverse",
+            "Faire des Playtest afin de déterminer la compréhension du jeux ainsi que de recevoir un retour"         
         ]
       },
       {
@@ -97,7 +102,7 @@
             "Créer les personnages avec PiskelApp (site désormais hors ligne)",
             "Déterminer le jeu à développer et les fonctionnalités à réaliser sur Trello",
             "Faire des playtests hebdomadaires avec les mentors et des volontaires",
-            "Collaborer avec d'autres équipes pour une meilleure maîtrise de Construct 3 et pour améliorer le projet"
+            "Collaborer avec d'autres équipes pour une meilleure maîtrise de Construct 3 ainsi qu'un meilleur retour sur le jeu"
         ]
       },
       {
@@ -113,7 +118,8 @@
             "En équipe de 3, déterminer les tâches à réaliser en fonction de leur urgence et difficulté",
             "Apprendre le langage JavaScript pour mener à bien le projet demandé par le professeur",
             "Modifier les couleurs de l'interface utilisateur pour améliorer l'esthétique de la page web",
-            "Organiser des rencontres hebdomadaires pour effectuer des tests d'acceptation sur chaque fonctionnalité réalisée"
+            "Organiser des rencontres hebdomadaires pour effectuer des tests d'acceptation sur chaque fonctionnalité réalisée",
+            "Améliorer ou modifier les fonctionnalités déja présentes dans l'application"
         ]
       },
       {
@@ -125,7 +131,11 @@
         "lienUrl": "",
         "start": "2020-06",
         "end": "2021-09",
-        "tasks": [ ]
+        "tasks": [
+          "Déterminer l'interface de l'application web sur figma", 
+          "Déterminer quelle tâches seront à réaliser en premier sur Trello", 
+          "Faire la revue d'interface réalisée par mes collègues", 
+          "Faire des rencontres hebdomadaires avec le client afin de vérifier si les fonctionnalités créées correspond à ses attentes"]
       }
    ]
 }
