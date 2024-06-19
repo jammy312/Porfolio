@@ -38,7 +38,7 @@
      {
        "title": "Integrator Project - Mobile Application Design (Android)",
        "description": "Adapt the web design project completed the previous year to a mobile version by adding new features.",
-       "keyWords": ["Dart", "Flutter", "WebSocket", "MongoDB", "Angular", "Typescript", "Jenkins", "Playwright"],
+       "keyWords": ["Dart", "Flutter", "WebSocket", "MongoDB", "Angular", "Typescript", "Jenkins", "Playwright", "Android Studio"],
        "image": "",
        "video": "Projet développement mobile.mp4",
        "lienUrl": "https://github.com/jammy312/Projet-integrateur-Polytechnique",
