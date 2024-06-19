@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useAppContext } from "../AppContext";
 import NormalButton from "../Components/Buttons/NormalButton";
 import Image from "../Components/Image";
 import Transition from "../Components/Transition";
@@ -7,14 +6,24 @@ import VideoPlayer from "../Components/VideoPlayer";
 import '../styles/Description.css'
 import InformationPanel from "../Components/InformationPanel";
 import DescriptionSubTitle from "../Components/Description-sub-title";
+import getProjectsData from "../Components/Data/GetProjectsData";
+import { useLocation } from "react-router-dom";
+
 function Description() {
-    const { data } = useAppContext();
+
+    const location = useLocation();
+
+    const value = location.pathname.split("/");
+    const index = parseInt(value[value.length-1]);
+    const data = getProjectsData().getData(index - 1);
+
+
     const { t } = useTranslation();
 
     return (
     <div id='Description'>   
         <div id="Resume-back-button">
-            <NormalButton url="/Projects" Name={"<--" + t("backToProjects")}/>
+            <NormalButton url="/Projects" Name={ t("backToProjects")}/>
         </div>
         <InformationPanel>
             <div className="Description-title" >{data.title}</div>

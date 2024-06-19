@@ -6,15 +6,13 @@ import Search from '../Components/Search/Search';
 import { useState } from 'react';
 import VideoPlayer from '../Components/VideoPlayer';
 import Image from '../Components/Image';
-import { useAppContext } from '../AppContext';
 import { useTranslation } from 'react-i18next';
 
 function Projects() {
     const [seachInput, setSearchInput] = useState('');
-    const data = getProjectsData(seachInput);
+    const data = getProjectsData().getAllData(seachInput);
     const schoolIcon = '/assets/Images/School.png';
     const workIcon:string = '/assets/Images/work.png';
-    const { setData } = useAppContext();
     const { t } = useTranslation();
 
     return (
@@ -43,7 +41,7 @@ function Projects() {
                                     return <span key={index} className={className}> {key}</span>
                                 })}</div>
                                    <div>
-                                        <NormalButton Name={t("seeMoreHere")} url='/Projects/Description' onClick={() => setData(data)}/>      
+                                        <NormalButton Name={t("seeMoreHere")} url={'/Projects/Description/' + (data.index + 1)}/>      
                                    </div>
                             </div>
                         </div>

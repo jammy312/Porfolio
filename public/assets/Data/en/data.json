@@ -1,0 +1,142 @@
+{
+  "projects": [
+     {
+        "title": "Integrator Project - Embedded System Design",
+        "description": "Configure an ATmega324A microcontroller in C with makefiles to control a robot and validate its behavior with the SimulIDE simulator.",
+        "keyWords": ["SimulIDE", "C", "Makefile"],
+        "image": "",
+        "video": "",
+        "lienUrl": "",
+        "start": "2021-01",
+        "end": "2021-04",
+        "ecole": "Polytechnique Montreal",
+        "tasks": [
+           "Work in a team of 4 to solve a complex problem",
+           "Master the functionality of the SimulIDE application",
+           "Verify that the behavior matches the expectations defined by the problem",
+           "Share tasks according to the requested features and dependencies between them"
+        ]
+     },
+     {
+       "title": "Integrator Project – Web Application Design",
+       "description": "Create a Scrabble game (backend and frontend) allowing multiplayer or computer matches.",
+       "keyWords": ["TypeScript", "Angular", "WebSocket", "MongoDB"],
+       "image": "",
+       "video": "Projet développement Web.mkv",
+       "lienUrl": "https://polytechnique-montr-al.gitlab.io/log2990/20221/equipe-305/log2990-305/#/home",
+       "start": "2022-01",
+       "end": "2022-04",
+       "ecole": "Polytechnique Montreal",
+       "tasks": [
+           "Complete the project using TypeScript, Angular, CSS, MongoDB, and WebSockets",
+           "Work in a team of 6 using Agile methodology with GitLab",
+           "Design the user interface with Figma for easier implementation",
+           "Define tasks based on their difficulty and teammates' skills",
+           "Write unit tests and regression tests to validate the entire project on GitLab"
+       ]
+     },
+     {
+       "title": "Integrator Project - Mobile Application Design (Android)",
+       "description": "Adapt the web design project completed the previous year to a mobile version by adding new features.",
+       "keyWords": ["Dart", "Flutter", "WebSocket", "MongoDB", "Angular", "Typescript", "Jenkins", "Playwright"],
+       "image": "",
+       "video": "Projet développement mobile.mp4",
+       "lienUrl": "https://github.com/jammy312/Projet-integrateur-Polytechnique",
+       "start": "2023-01",
+       "end": "2023-04",
+       "ecole": "Polytechnique Montreal",
+       "tasks": [
+           "Fix and improve the defects observed in the previous project",
+           "Design a new user interface for the mobile version with Figma",
+           "Learn the Dart language to complete the project",
+           "Develop a CI/CD pipeline on Jenkins for automated testing and application deployment"
+       ]
+     },
+     {
+       "title": "Final Integrator Project - Ubisoft University Competition",
+       "description": "Develop a playable 3D video game prototype in ten weeks as a team, adhering to the theme, mandate, and constraints defined by a jury of Ubisoft professionals.",
+       "keyWords": ["Unreal Engine", "Notion", "Jenkins", "Perforce"],
+       "image": "",
+       "video": "",
+       "lienUrl": "https://lex0re.itch.io/noctambule",
+       "start": "2024-01",
+       "end": "2024-04",
+       "ecole": "Polytechnique Montreal",
+       "tasks": [
+           "Work in a team of 9 with specific roles based on skills (Programmer, Game Designer, Artist, Musician), supervised by mentors and professors",
+           "Use Agile methodology with weekly meetings",
+           "Develop the project on Unreal Engine using Blueprint",
+           "Define tasks based on their difficulty on Notion",
+           "Set up a CI/CD pipeline on Jenkins for automated testing and game deployment"
+       ]
+     },
+     {
+       "title": "Integrator Project - Java Game Design",
+       "description": "Develop a game in Java as a team of three, demonstrating the use of physics and associated concepts.",
+       "keyWords": ["Java", "GitLab"],
+       "image": "",
+       "video": "Projet Java.mp4",
+       "lienUrl": "https://github.com/jammy312/Projet-Maisonneuve",
+       "start": "2020-01",
+       "end": "2020-05",
+       "ecole": "Collège Maisonneuve",
+       "tasks": [
+           "Work in a team of 3 to determine which game to create",
+           "Break the project into Sprints to determine project progress",
+           "Hold weekly meetings using Agile methodology with the professor",
+           "Research online to determine the physical formulas for the ball based on wall collisions and gravity",
+           "Conduct playtests to assess game understanding and gather feedback"
+       ]
+     },
+     {
+       "title": "Extracurricular Project - Construct 3 Game Design",
+       "description": "Develop a game as a team of 4 while learning a new programming tool.",
+       "keyWords": ["Construct 3", "PiskelApp"],
+       "image": "",
+       "video": "Memoria-of-the-fallen.mp4",
+       "lienUrl": "https://github.com/jammy312/memoria-of-the-fallen",
+       "start": "2017-10",
+       "end": "2018-03",
+       "ecole": "École secondaire Henri-Bourassa",
+       "tasks": [
+           "Create characters with PiskelApp (site now offline)",
+           "Determine the game to develop and features to implement on Trello",
+           "Conduct weekly playtests with mentors and volunteers",
+           "Collaborate with other teams for better mastery of Construct 3 and better game feedback"
+       ]
+     },
+     {
+       "title": "Personal Project - Website Maintenance",
+       "description": "Maintain a website for a professor at École de Technologie Supérieure (ETS) using JavaScript.",
+       "keyWords": ["JavaScript", "Google Drive", "Github"],
+       "image": "",
+       "video": "",
+       "lienUrl": "",
+       "start": "2021-09",
+       "end": "2021-12",
+       "tasks": [
+           "In a team of 3, determine tasks based on their urgency and difficulty",
+           "Learn JavaScript to successfully complete the professor's project",
+           "Modify the user interface colors to improve website aesthetics",
+           "Organize weekly meetings to conduct acceptance tests on each completed feature",
+           "Improve or modify existing features in the application"
+       ]
+     },
+     {
+       "title": "Personal Project - Event Planning Website",
+       "description": "Plan and create an event planning website using WordPress.",
+       "keyWords": ["WordPress", "Google Drive"],
+       "image": "",
+       "video": "",
+       "lienUrl": "",
+       "start": "2020-06",
+       "end": "2021-09",
+       "tasks": [
+         "Design the web application interface on Figma",
+         "Determine which tasks to complete first on Trello",
+         "Review the interface created by my colleagues",
+         "Hold weekly meetings with the client to ensure created features meet their expectations"
+       ]
+     }
+  ]
+}

@@ -22,7 +22,7 @@ function App() {
                 <Route index element = {<Home/>} />
                 <Route path='/Home' element = {<Home/>} />
                 <Route path='/Projects' element = {<Projects/>} />
-                <Route path='/Projects/Description' element = {<Description/>} />
+                <Route path='/Projects/Description/:id' element = {<Description/>} />
                 <Route path='/Experience' element = {<Experience/>} />
             </Routes>
         </AnimatePresence>

@@ -1,0 +1,57 @@
+{
+    "Resume": [
+        {
+            "title": "Bachelor's Degree in Software Engineering",
+            "environment": "Polytechnique Montreal",
+            "start": 2020,
+            "end": 2024,
+            "lienUrl": "https://www.polymtl.ca/",
+            "isSchool": true
+        },
+        {
+            "title": "DEC",
+            "environment": "Cégep Maisonneuve",
+            "lienUrl": "https://www.cmaisonneuve.qc.ca/",
+            "start": 2018,
+            "end": 2020,
+            "isSchool": true
+        },
+        {
+            "title": "DES",
+            "environment": "École secondaire Henri-Bourassa",
+            "lienUrl": "https://henribourassa.csspi.ca/",
+            "start": 2013,
+            "end": 2018,
+            "isSchool": true
+        },
+        {
+            "title": "Intern - FullStack",
+            "environment": "Stingray",
+            "lienUrl": "https://www.stingray.com/",
+            "start": 2022,
+            "end": 2022,
+            "task": [
+                "Utilize Agile practices to develop, analyze, and create software products",
+                "Develop new features requested by stakeholders in Java and ReactJs",
+                "Collaborate with other teams to analyze needs and identify required changes",
+                "Improve existing microservices that enhance site interaction using AWS",
+                "Conduct automated tests to maintain functionality on GitLab"
+            ]
+        },
+        {
+            "title": "Intern - FullStack",
+            "environment": "Nomadis",
+            "lienUrl": "https://nomadis.co/",
+            "start": 2023,
+            "end": 2023,
+            "task": [
+                "Participate in Agile meetings for platform planning and analysis on Jira",
+                "Design and maintain features in the platform using C#/.NET and Angular",
+                "Resolve quality issues observed in company reports using Crystal Report Designer",
+                "Make autonomous decisions when solving complex problems",
+                "Present findings and learnings from tasks to colleagues through communication and reports",
+                "Study and maintain the company database using Microsoft SQL Server"
+            ]
+        }
+    ]
+}

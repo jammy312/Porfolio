@@ -1,4 +1,6 @@
-import data from '../../../public/assets/Data/Resume.json';
+import dataFr from '../../../public/assets/Data/fr/Resume.json';
+import dataEn from '../../../public/assets/Data/en/Resume.json';
+import i18n from '../../i18n';
 
 export interface ResumeData{
     title: string,
@@ -12,6 +14,8 @@ export interface ResumeData{
 
 function GetResumeData(){
     let allData:ResumeData[] = [];
+    const data = i18n.language == 'fr' ? dataFr : dataEn ;
+
     data.Resume.map( (resume) => {
         const data:ResumeData = {
             title: resume.title,
