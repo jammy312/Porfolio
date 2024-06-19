@@ -23,7 +23,6 @@ const getProjectsData = () => {
     function getAllData(keyword?:string):Data[] {
         let allData:Data[] = [];
         const data = i18n.language == 'fr' ? dataFr : dataEn;
-        console.log(dataEn);
         data.projects.map( (projet,index) =>{
             const data:Data = {
                 title: projet.title,
