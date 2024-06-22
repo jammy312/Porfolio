@@ -19,7 +19,7 @@
 .Description-comment{
     margin: 0.5% 3%;
     justify-content: left;
-    font-size: 3vw;
+    font-size: large;
 }
 
 .center{
@@ -32,3 +32,9 @@
     border-radius: 15%;
     margin: 0 1%;
 }
+
+@media only screen and (max-width: 600px) {
+    .Description-comment{
+        font-size: 3vw;
+    }
+  }
