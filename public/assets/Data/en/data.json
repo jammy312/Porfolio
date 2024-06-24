@@ -3,7 +3,7 @@
      {
         "title": "Integrator Project - Embedded System Design",
         "description": "Configure an ATmega324A microcontroller in C with makefiles to control a robot and validate its behavior with the SimulIDE simulator.",
-        "keyWords": ["SimulIDE", "C", "Makefile"],
+        "keyWords": ["SimulIDE", "C", "Makefile", "Linux"],
         "image": "",
         "video": "",
         "lienUrl": "",

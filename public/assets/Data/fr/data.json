@@ -3,7 +3,7 @@
       {
          "title": "Projet Intégrateur - Conception de système embarqué",
          "description": "Configurer un microcontrôleur ATmega324A en C avec des makefiles pour contrôler un robot et valider son comportement avec le simulateur SimulIDE.",
-         "keyWords": ["SimulIDE", "C", "Makefile"],
+         "keyWords": ["SimulIDE", "C", "Makefile", "Linux"],
          "image": "",
          "video": "",
          "lienUrl": "",
