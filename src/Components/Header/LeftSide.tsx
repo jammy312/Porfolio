@@ -10,7 +10,7 @@ function LeftSide() {
             <div className="left-space">
                 <LanguageButton/>
                 <ButtonURL url= {"https://www.linkedin.com/in/james-brutus/"} imagePath='\assets\Images\linkedin.png'/>
-                <ButtonURL url= {"https://github.com/jammy312"} imagePath='\assets\Images\github.png'/>
+                <ButtonURL url= {"https://github.com/jammy312/Porfolio"} imagePath='\assets\Images\github.png'/>
             </div>
         </div>
 
