@@ -7,8 +7,8 @@ interface VideoPlayerProps {
 const VideoPlayer: React.FC<VideoPlayerProps> = ({ videoName }) => {
     const videoPath = "/assets/Videos/"
   return (
-    <div >
-      <video width="60%" controls>
+    <div style={{padding:"25px"}} >
+      <video width="80%" controls>
         <source src={`${videoPath}${videoName}`} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
