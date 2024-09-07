@@ -57,7 +57,7 @@
         "description": "Développer en équipe, en dix semaines, un prototype de jeu vidéo jouable en 3D répondant au thème, au mandat et aux contraintes définis par un jury composé de professionnels d’Ubisoft.",
         "keyWords": ["Unreal Engine", "Notion", "Jenkins", "Perforce"],
         "image": "",
-        "video": "",
+        "video": "noctambule.mp4",
         "lienUrl": "https://lex0re.itch.io/noctambule",
         "start": "2024-01",
         "end": "2024-04",

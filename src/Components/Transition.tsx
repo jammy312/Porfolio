@@ -1,27 +1,20 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import '../styles/Transition.css'
-const Transition = (OgComponent: React.ComponentType<any>) => {
-  return (props: any) => {
-
+import React from "react";
+import { motion } from "framer-motion";
+import "../styles/Transition.css";
+const Transition = <T extends JSX.IntrinsicAttributes>(
+  OgComponent: React.FC<T>
+) => {
+  return (props: T) => {
     return (
-      <>
+      <motion.div
+        className="motion"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <OgComponent {...props} />
-        <motion.div
-          className="slide-in"
-          initial={{ scaleY: 0 }}
-          animate={{ scaleY: 0 }}
-          exit={{ scaleY: 1 }}
-          transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        />
-        <motion.div
-          className="slide-out"
-          initial={{ scaleY: 1 }}
-          animate={{ scaleY: 0 }}
-          exit={{ scaleY: 0 }}
-          transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        />
-      </>
+      </motion.div>
     );
   };
 };
